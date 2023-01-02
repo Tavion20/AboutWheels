@@ -10,7 +10,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    height: 8%;
+    height: 50px;
     background-color: rgb(0, 171, 179);
     border-radius: 20px;
     border-width: 2px;
@@ -112,16 +112,21 @@ body{
     background-color: #144272;
     transition: background-color 0.15s, opacity 0.2s;
 }
-@media (min-width:1060px){
+@media (min-width:1010px){
     .logogrid{
         bottom: 15%;
         left: 10%;
-        column-gap: 30%;
+        column-gap: 25%;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
+    .logogrid2{
+        column-gap: 25%;
+    }
+    .lgbutton{
+        width: 90px;
+    }
 }
-@media (min-width:721px) and (max-width:1059px){
+@media (min-width:721px) and (max-width:1009px){
     .logogrid{
         bottom: 10%;
         left: 5%;
@@ -151,6 +156,67 @@ body{
     }
     .lgbutton{
         width: 70px;
+    }
+}
+@media (max-width:576px){
+    .logogrid{
+        bottom: 5%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .logogrid2{
+        bottom: 5%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .lgbutton{
+        width: 50px;
+    }
+}
+@media (max-width:410px){
+    .logogrid{
+        bottom: 5%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .logogrid2{
+        bottom: 5%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .lgbutton{
+        width: 50px;
+    }
+    .heading,.heading2{
+        margin-top: -1%;
+    }
+}
+@media (max-width:355px){
+    .logogrid{
+        bottom: 5%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .logogrid2{
+        bottom: 5%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .lgbutton{
+        width: 45px;
+    }
+    .heading,.heading2{
+        margin-top: -1%;
+    }
+    .mainlg{
+        width: 120px;
+        height: 40px;
     }
 }
 .lgbutton:hover{
