@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding-top: 60px;
+    padding-bottom: 60px;
     background: linear-gradient(to right, #144272,#2C74B3);
     background-size: 400% 400%;
     animation: animate-background 10s infinite ease-in-out;
@@ -44,6 +45,8 @@ body{
     border-radius: 20px;
     height: 50%;
     transition: background-color 0.15s,color 0.15s, opacity 0.2s;
+    font-family: Andika, Arial, sans-serif;
+
 }
 .hdbutton:hover{
     background-color: #aaa;
@@ -69,6 +72,14 @@ body{
     text-shadow: 1px 1px 1px #aaa;
     margin-left: 30%;
     margin-bottom: -0.4%;
+}
+.heading3{
+    color: #0A2647;
+    font-size: 2.8vw;
+    font-weight: 500;
+    font-family: Andika, Arial, sans-serif;
+    text-shadow: 1px 1px 1px #aaa;
+    margin-left: 8%;
 }
 .lam
 {
@@ -111,113 +122,6 @@ body{
     border-color: black;
     background-color: #144272;
     transition: background-color 0.15s, opacity 0.2s;
-}
-@media (min-width:1010px){
-    .logogrid{
-        bottom: 15%;
-        left: 10%;
-        column-gap: 25%;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .logogrid2{
-        column-gap: 25%;
-    }
-    .lgbutton{
-        width: 90px;
-    }
-}
-@media (min-width:721px) and (max-width:1009px){
-    .logogrid{
-        bottom: 10%;
-        left: 5%;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 15%;
-    }
-    .logogrid2{
-        bottom: 10%;
-        right: 20%;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 15%;
-    }
-    .lgbutton{
-        width: 80px;
-    }
-}
-@media (max-width:720px){
-    .logogrid{
-        bottom: 5%;
-        left: 5%;
-        grid-template-columns: 1fr 1fr;
-    }
-    .logogrid2{
-        bottom: 5%;
-        right: 20%;
-        grid-template-columns: 1fr 1fr;
-    }
-    .lgbutton{
-        width: 70px;
-    }
-}
-@media (max-width:576px){
-    .logogrid{
-        bottom: 5%;
-        left: 5%;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10%;
-    }
-    .logogrid2{
-        bottom: 5%;
-        right: 20%;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10%;
-    }
-    .lgbutton{
-        width: 50px;
-    }
-}
-@media (max-width:410px){
-    .logogrid{
-        bottom: 5%;
-        left: 5%;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10%;
-    }
-    .logogrid2{
-        bottom: 5%;
-        right: 20%;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10%;
-    }
-    .lgbutton{
-        width: 50px;
-    }
-    .heading,.heading2{
-        margin-top: -1%;
-    }
-}
-@media (max-width:355px){
-    .logogrid{
-        bottom: 5%;
-        left: 5%;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10%;
-    }
-    .logogrid2{
-        bottom: 5%;
-        right: 20%;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10%;
-    }
-    .lgbutton{
-        width: 45px;
-    }
-    .heading,.heading2{
-        margin-top: -1%;
-    }
-    .mainlg{
-        width: 120px;
-        height: 40px;
-    }
 }
 .lgbutton:hover{
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
@@ -304,6 +208,17 @@ body{
     animation: animate-background 10s infinite ease-in-out;
     margin-left: 30%;
 }
+.animtest3{
+    position: absolute;
+    background: linear-gradient(to right, #0A2647,#aaa);
+    background-size: 400% 400%;
+    width: 30%;
+    height: 0.6vh;
+    animation: animate-background 10s infinite ease-in-out;
+    margin-left: 8%;
+    margin-top: -3%;
+    z-index: 5;
+}
 @keyframes animate-background{
     0%{
         background-position: 0 50%;
@@ -313,5 +228,179 @@ body{
     }
     100%{
         background-position: 0 50%;
+    }
+}
+.recgrid{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+.recbutton{
+    width: 300px;
+    height: 333px;
+    background-color: #aaa;
+    color: #0A2647;
+    border-radius: 20px;
+    padding-top: 30%;
+    font-weight: 500;
+    font-size: 2.3vw;
+    font-family: Andika, Arial, sans-serif;
+    line-height: 35px;
+    cursor: pointer;
+    transition: background-color 0.15s,color 0.15s, opacity 0.2s;
+    position: relative;
+}
+.recbutton:hover{
+    background-color: #0A2647;
+    color: #aaa;
+    text-decoration: underline;
+}
+.recbutton:active{
+    opacity: 70%;
+}
+.reccar{
+    width: 98%;
+    min-height: 180px;
+    border-radius: 20px;
+    position: absolute;
+    top: 2%;
+    left: 0.6%;
+}
+@media (min-width:1010px){
+    .logogrid{
+        bottom: 15%;
+        left: 10%;
+        column-gap: 25%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .logogrid2{
+        column-gap: 25%;
+    }
+    .lgbutton{
+        width: 90px;
+    }
+    .recgrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:721px) and (max-width:1009px){
+    .logogrid{
+        bottom: 10%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15%;
+    }
+    .logogrid2{
+        bottom: 10%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15%;
+    }
+    .lgbutton{
+        width: 80px;
+    }
+    .recgrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:720px){
+    .logogrid{
+        bottom: 5%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .logogrid2{
+        bottom: 5%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .lgbutton{
+        width: 70px;
+    }
+    .recgrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:676px){
+    .recgrid{
+        grid-template-columns: 1fr;
+    }
+    .recbutton{
+        font-size: 5vw;
+    }
+    .heading3{
+        font-size: 6vw;
+    }
+    .animtest3
+    {
+        margin-top: -7%;
+        width: 60%;
+    }
+}
+@media (max-width:576px){
+    .logogrid{
+        bottom: 5%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .logogrid2{
+        bottom: 5%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .lgbutton{
+        width: 50px;
+    }
+    /* .animtest3{
+        height: 0.2vh;
+    } */
+}
+@media (max-width:410px){
+    .logogrid{
+        bottom: 5%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .logogrid2{
+        bottom: 5%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .lgbutton{
+        width: 50px;
+    }
+    .heading,.heading2{
+        margin-top: -1%;
+    }
+}
+@media (max-width:355px){
+    .logogrid{
+        bottom: 5%;
+        left: 5%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .logogrid2{
+        bottom: 5%;
+        right: 20%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10%;
+    }
+    .lgbutton{
+        width: 45px;
+    }
+    .heading,.heading2{
+        margin-top: -1%;
+    }
+    .mainlg{
+        width: 120px;
+        height: 40px;
     }
 }
