@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutnew.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap" rel="stylesheet">
+    <title>AboutWheels</title>
+</head>
+<body>
+    <div class="header">
+        <div class="lsec"></div>
+        <div class="msec">
+            <img class="mainlg" src="logo/abtwheellg.jpg">
+        </div>
+        <div class="rsec">
+            <button class="hdbutton">Home</button>
+            <button class="hdbutton">About Us</button>
+        </div>
+    </div>
+    <div class="maindiv">
+        <img class="mainpic" src="logo/lambo.webp" id="mainimage">
+        <div class="info" id="text">PlaceHolder Text</div>
+    </div>
+
+    <div><p class="heading3">Lamborghini</p></div>
+    <div class="animtest3" id="lambou"></div>
+
+    <div class="recgrid">
+        <div class="rec">
+            <button class="recbutton">
+                <img class="reccar" src="logo/lambo.webp">
+                <p class="txtrec">Lamborghini Aventador</p>
+            </button>
+        </div>
+        <div class="rec">
+            <button onclick="change()" class="recbutton">
+                <img class="reccar" src="logo/taycan.jpg">
+                <p class="txtrec">Porche Taycan Turbo S</p>
+            </button>
+        </div>
+        <div class="rec">
+            <button onclick="changepolo()" class="recbutton">
+                <img class="reccar" src="logo/vwpolo.jpg">
+                <p class="txtrec">Volkswagen Polo</p>
+            </button>
+        </div>
+        <div class="rec">
+            <button class="recbutton">
+                <img class="reccar" src="logo/seltos.jpg">
+                <p class="txtrec">Kia Seltos</p>
+            </button>
+        </div>
+        <div class="rec">
+            <button class="recbutton">
+                <img class="reccar" src="logo/kwid.jpg">
+                <p class="txtrec">Renault Kwid</p>
+            </button>
+        </div>
+        <div class="rec">
+            <button class="recbutton">
+                <img class="reccar" src="logo/i20.webp">
+                <p class="txtrec">Hyundai i20</p>
+            </button>
+        </div>
+    </div>
+    <script>
+        function change(){
+            document.getElementById("mainimage").src="logo/taycan.jpg";
+            document.getElementById("text").innerHTML="Text is now Changed";
+        }
+        function changepolo(){
+            document.getElementById("mainimage").src="logo/vwpolo.jpg";
+            document.getElementById("text").innerHTML="Polo Text";
+        }
+    </script>
+</body>
+</html>

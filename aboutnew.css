@@ -219,6 +219,9 @@ body{
     margin-top: -3%;
     z-index: 5;
 }
+#lambou{
+    width: 15%;
+}
 @keyframes animate-background{
     0%{
         background-position: 0 50%;
@@ -269,6 +272,7 @@ body{
     top: 2%;
     left: 0.6%;
 }
+
 @media (min-width:1010px){
     .logogrid{
         bottom: 15%;
@@ -403,4 +407,33 @@ body{
         width: 120px;
         height: 40px;
     }
+}
+
+
+
+
+
+/* new pages css starts here */
+
+
+
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+}
+.mainpic{
+    width: 100%;
+    border-radius: 30px;
+}
+.info{
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    opacity: 70%;
 }
