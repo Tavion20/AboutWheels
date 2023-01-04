@@ -458,3 +458,11 @@ body{
     left: 2%;
     opacity: 70%;
 }
+
+/* kia page */
+#text_kia{
+    padding: 10px 30px;
+    background-color: rgba(40, 40, 40, 1);
+    /* position: relative;
+    left: 800px; */
+}

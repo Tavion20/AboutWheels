@@ -62,3 +62,44 @@ function changepan(){
     document.getElementById("mainimage").src="logo/pan.jpg";
     document.getElementById("text").innerHTML="Panamera";
 }
+
+// kia motors
+function changekiaev6(){
+    document.getElementById("mainimage").src="logo/Kia_EV6.jpg";
+    document.getElementById("model").innerHTML="Model: EV6"; 
+    document.getElementById("engsp").innerHTML="Battery: 800V Lithium-ion";
+    document.getElementById("mile").innerHTML="Electric Range: 370 km";
+    document.getElementById("price").innerHTML="Base Price: ₹60.95 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 260 km/h";
+    document.getElementById("type").innerHTML="Type: Sedan";
+}
+
+function changeseltos(){
+    document.getElementById("mainimage").src="logo/seltos.webp";
+    document.getElementById("model").innerHTML="Model: Seltos"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 1.4L 4-cylinder";
+    document.getElementById("mile").innerHTML="Mileage: 16-21 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹10.5 lakhs";
+    document.getElementById("speed").innerHTML="Top speed: 170 km/h";
+    document.getElementById("type").innerHTML="Type: SUV";
+}
+
+function changekiacarens(){
+    document.getElementById("mainimage").src="logo/kia_carens.jpg";
+    document.getElementById("model").innerHTML="Model: Carens"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 1.4L 4-cylinder";
+    document.getElementById("mile").innerHTML="Mileage: 21.3 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹10.2 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 	174 km/h";
+    document.getElementById("type").innerHTML="Type: MUV";
+}
+
+function changekiasonet(){
+    document.getElementById("mainimage").src="logo/kia_sonet.webp";
+    document.getElementById("model").innerHTML="Model: Sonet"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 1.0L 3-cylinder";
+    document.getElementById("mile").innerHTML="Mileage: 18-24 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹7.49 lakhs";
+    document.getElementById("speed").innerHTML="Top speed: 170 km/h";
+    document.getElementById("type").innerHTML="Type: compact SUV";
+}
