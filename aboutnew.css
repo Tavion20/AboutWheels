@@ -30,10 +30,25 @@ body{
     display: flex;
     justify-content: center;
 }
-.mainlg{
+.mainlgbutton{
+    padding-top: -5%;
     width: 200px;
-    height: 50px;
+    height: 55px;
     border-radius: 30px;
+    cursor: pointer;
+    background-color: #aaa;
+    transition: background-color 0.15s, opacity 0.2s;
+}
+.mainlgbutton:hover{
+    background-color: #0A2647;
+}
+.mainlgbutton:active{
+    opacity: 70%;
+}
+.mainlg{
+    width: 100%;
+    border-radius: 30px;
+    height: 50px;
 }
 .rsec{
     width: 200px;
@@ -222,6 +237,12 @@ body{
 #lambou{
     width: 15%;
 }
+#aston{
+    width: 17%;
+}
+#pors{
+    width: 10%;
+}
 @keyframes animate-background{
     0%{
         background-position: 0 50%;
@@ -243,11 +264,11 @@ body{
 }
 .recbutton{
     width: 300px;
-    height: 333px;
+    height: 300px;
     background-color: #aaa;
     color: #0A2647;
     border-radius: 20px;
-    padding-top: 30%;
+    padding-top: 35%;
     font-weight: 500;
     font-size: 2.3vw;
     font-family: Andika, Arial, sans-serif;
