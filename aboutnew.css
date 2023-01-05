@@ -289,6 +289,18 @@ p{
 #kia{
     width: 4%;
 }
+#suzuki1{
+    width:18%;
+}
+#renault1{
+    width:10%;
+}
+#hyundai1{
+    width:11%;
+}
+#bestbug1{
+    width:20%;
+}
 @keyframes animate-background{
     0%{
         background-position: 0 50%;
