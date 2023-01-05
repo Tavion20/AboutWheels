@@ -11,8 +11,8 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    background-color: rgb(0, 171, 179);
+    height: 60px;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
@@ -32,15 +32,13 @@ body{
 }
 .mainlgbutton{
     padding-top: -5%;
-    width: 200px;
+    width: 180px;
     height: 55px;
     border-radius: 30px;
     cursor: pointer;
-    background-color: #aaa;
-    transition: background-color 0.15s, opacity 0.2s;
-}
-.mainlgbutton:hover{
-    background-color: #0A2647;
+    background-color: rgb(255, 255, 255);
+    transition: opacity 0.2s;
+    border-width: 0;
 }
 .mainlgbutton:active{
     opacity: 70%;
@@ -256,7 +254,7 @@ body{
 }
 .recgrid{
     margin-top: 30px;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -4,15 +4,30 @@ function changepolo(){
 }
 function changeaven(){
     document.getElementById("mainimage").src="logo/lambo.webp";
-    document.getElementById("text").innerHTML="Lamborghini Aventador";
+    document.getElementById("model").innerHTML="Model: Aventador"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 6.5L v12 engine";
+    document.getElementById("mile").innerHTML="Mileage: 7-8 kmpl";
+    document.getElementById("price").innerHTML="Price: ₹6.25Cr- 9Cr";
+    document.getElementById("speed").innerHTML="Top speed: 350 kmph";
+    document.getElementById("type").innerHTML="Type: Sports Car";
 }
 function changehura(){
     document.getElementById("mainimage").src="logo/huri.webp";
-    document.getElementById("text").innerHTML="Lamborghini Huracan";
+    document.getElementById("model").innerHTML="Model: Huracan"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 5.2L V10 engine";
+    document.getElementById("mile").innerHTML="Mileage: 10-11kmpl";
+    document.getElementById("price").innerHTML="Price: ₹3.22-3.73 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 310 kmph";
+    document.getElementById("type").innerHTML="Type: Sports Car";
 }
 function changeurus(){
     document.getElementById("mainimage").src="logo/urus.webp";
-    document.getElementById("text").innerHTML="Lamborghini Urus";
+    document.getElementById("model").innerHTML="Model: Urus"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 4L V8 engine";
+    document.getElementById("mile").innerHTML="Mileage: 7-8 kmpl";
+    document.getElementById("price").innerHTML="Price: ₹3.15-4.22 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 305 kmph";
+    document.getElementById("type").innerHTML="Type: Sports Car";
 }
 function changevantc(){
     document.getElementById("mainimage").src="logo/vantc.jpg";
