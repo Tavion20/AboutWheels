@@ -192,3 +192,45 @@ function changeinnova(){
     document.getElementById("speed").innerHTML="Top speed: 	179 km/h";
     document.getElementById("type").innerHTML="Type: MPV";
 }
+
+//suzuki
+
+function changeswift(){
+    document.getElementById("mainimage").src="logo/swift.webp";
+    document.getElementById("model").innerHTML="Model: Swift"; 
+    document.getElementById("engsp").innerHTML="Engine Specs: 1.2L 4-cylinder 1197 cc";
+    document.getElementById("mile").innerHTML="Mileage: 23.2 - 23.76 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹5.92 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 165 Km/hr";
+    document.getElementById("type").innerHTML="Type: Hatchback";
+}
+
+function changebaleno(){
+    document.getElementById("mainimage").src="logo/baleno.webp";
+    document.getElementById("model").innerHTML="Model: Baleno"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 2.0L 4-cylinder 1197 cc";
+    document.getElementById("mile").innerHTML="Mileage: 22.35 - 22.94 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹6.49 lakhs";
+    document.getElementById("speed").innerHTML="Top speed: 180 km/h";
+    document.getElementById("type").innerHTML="Type: Hatchback";
+}
+
+function changewagonr(){
+    document.getElementById("mainimage").src="logo/wagonr.webp";
+    document.getElementById("model").innerHTML="Model: WagonR"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 1.2L 3-cylinder 999cc";
+    document.getElementById("mile").innerHTML="Mileage: 23.56 - 25.19 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹5.47 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 	152 km/h";
+    document.getElementById("type").innerHTML="Type: Hatchback";
+}
+
+function changebrezza(){
+    document.getElementById("mainimage").src="logo/breeza2.jpg";
+    document.getElementById("model").innerHTML="Model: Brezza"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 1.5L 4-cylinder 1462 cc";
+    document.getElementById("mile").innerHTML="Mileage: 19.8 to 20.15 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹7.99 lakhs";
+    document.getElementById("speed").innerHTML="Top speed: 170 km/h";
+    document.getElementById("type").innerHTML="Type: compact SUV";
+}
