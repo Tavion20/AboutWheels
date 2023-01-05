@@ -103,3 +103,45 @@ function changekiasonet(){
     document.getElementById("speed").innerHTML="Top speed: 170 km/h";
     document.getElementById("type").innerHTML="Type: compact SUV";
 }
+
+//volkswagen
+
+function changevirtus(){
+    document.getElementById("mainimage").src="logo/virtus2.webp";
+    document.getElementById("model").innerHTML="Model: Virtus"; 
+    document.getElementById("engsp").innerHTML="Engine Specs: 1.0L 3-cylinder 999cc";
+    document.getElementById("mile").innerHTML="Mileage: 18.12 - 19.4 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹11.32 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 190 Km/hr";
+    document.getElementById("type").innerHTML="Type: Sedan";
+}
+
+function changetiguan(){
+    document.getElementById("mainimage").src="logo/tiguan2.webp";
+    document.getElementById("model").innerHTML="Model: Tiguan"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 2.0L 4-cylinder 1984 cc";
+    document.getElementById("mile").innerHTML="Mileage: 12.65 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹33.50 lakhs";
+    document.getElementById("speed").innerHTML="Top speed: 213 km/h";
+    document.getElementById("type").innerHTML="Type: SUV";
+}
+
+function changevento(){
+    document.getElementById("mainimage").src="logo/vento.jpg";
+    document.getElementById("model").innerHTML="Model: Vento"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 1.2L 3-cylinder 999cc";
+    document.getElementById("mile").innerHTML="Mileage: 17.69 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹8.69 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 	185 km/h";
+    document.getElementById("type").innerHTML="Type: Sedan";
+}
+
+function changepassat(){
+    document.getElementById("mainimage").src="logo/passat.jpg";
+    document.getElementById("model").innerHTML="Model: Passat"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 2.0L 4-cylinder 1498 cc";
+    document.getElementById("mile").innerHTML="Mileage: 17.42 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹30 lakhs";
+    document.getElementById("speed").innerHTML="Top speed: 220 km/h";
+    document.getElementById("type").innerHTML="Type: Sedan";
+}
