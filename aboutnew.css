@@ -400,6 +400,14 @@ p{
     .recgrid{
         grid-template-columns: 1fr 1fr;
     }
+    .maindiv:hover .info{
+        opacity: 70%;
+        transform: translateY(250px);
+        -webkit-transform: translateY(250px);
+    }
+    .maindiv:hover{
+        margin-bottom: 250px;
+    }
 }
 
 @media (max-width:676px){
@@ -535,11 +543,11 @@ p{
 }
 .maindiv:hover .info{
     opacity: 70%;
-    transform: translateY(200px);
-    -webkit-transform: translateY(200px);
+    transform: translateY(230px);
+    -webkit-transform: translateY(230px);
 }
 .maindiv:hover{
-    margin-bottom: 200px;
+    margin-bottom: 230px;
 }
 .specs{
     width: 100%;
