@@ -27,7 +27,7 @@ function changeurus(){
     document.getElementById("mile").innerHTML="Mileage: 7-8 kmpl";
     document.getElementById("price").innerHTML="Price: ₹3.15-4.22 Cr";
     document.getElementById("speed").innerHTML="Top speed: 305 kmph";
-    document.getElementById("type").innerHTML="Type: Sports Car";
+    document.getElementById("type").innerHTML="Type: Luxury SUV";
 }
 function changevantc(){
     document.getElementById("mainimage").src="logo/vantc.jpg";
@@ -75,27 +75,48 @@ function changedbsv(){
 }
 function changetay(){
     document.getElementById("mainimage").src="logo/taycan.jpg";
-    document.getElementById("text").innerHTML="Taycan";
+    document.getElementById("model").innerHTML="Model: Taycan Turbo S"; 
+    document.getElementById("engsp").innerHTML="Battery: 79.2 kWh";
+    document.getElementById("mile").innerHTML="Electric range: 400 miles on a charge";
+    document.getElementById("price").innerHTML="Base Price: ₹1.53 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 260Km/hr";
+    document.getElementById("type").innerHTML="Type: Luxury Sedan";
 }
-function change718(){
-    document.getElementById("mainimage").src="logo/718.jpeg";
-    document.getElementById("text").innerHTML="718";
-}
+
+// function change718(){
+//     document.getElementById("mainimage").src="logo/718.jpeg";
+//     document.getElementById("text").innerHTML="718";
+// }
 function change911(){
     document.getElementById("mainimage").src="logo/911.webp";
-    document.getElementById("text").innerHTML="911";
+    document.getElementById("model").innerHTML="Model: 911"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 3.7L V8 engine 2981 cc";
+    document.getElementById("mile").innerHTML="Mileage: 9-11 km/L";
+    document.getElementById("price").innerHTML="Price: ₹1.72 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 293kmph";
+    document.getElementById("type").innerHTML="Type: Luxury Coupe";
 }
-function changemac(){
-    document.getElementById("mainimage").src="logo/macan.jpg";
-    document.getElementById("text").innerHTML="Macan";
-}
+// function changemac(){
+//     document.getElementById("mainimage").src="logo/macan.jpg";
+//     document.getElementById("text").innerHTML="Macan";
+// }
 function changecay(){
     document.getElementById("mainimage").src="logo/cay.jpg";
-    document.getElementById("text").innerHTML="Cayenne";
+    document.getElementById("model").innerHTML="Model: Cayenne"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 4.8L V8 engine";
+    document.getElementById("mile").innerHTML="Mileage: 9-11km/L";
+    document.getElementById("price").innerHTML="Price: ₹1.26 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 245kmph";
+    document.getElementById("type").innerHTML="Type: Luxury Coupe";
 }
 function changepan(){
     document.getElementById("mainimage").src="logo/pan.jpg";
-    document.getElementById("text").innerHTML="Panamera";
+    document.getElementById("model").innerHTML="Model: Panamera"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 5.2L V12 engine 2894 cc";
+    document.getElementById("mile").innerHTML="Mileage: 9-13kmpl";
+    document.getElementById("price").innerHTML="Price: ₹1.57 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 270 to 315 kmph";
+    document.getElementById("type").innerHTML="Type: Luxury Sedan";
 }
 
 // kia motors
