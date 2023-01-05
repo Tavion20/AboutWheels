@@ -1,10 +1,13 @@
 body{
     margin: 0;
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 60px;
     background: linear-gradient(to right, #144272,#2C74B3);
     background-size: 400% 400%;
     animation: animate-background 10s infinite ease-in-out;
+}
+p{
+    font-family: Andika, Arial, sans-serif;
 }
 .header{
     position: fixed;
@@ -13,7 +16,6 @@ body{
     right: 0;
     height: 60px;
     background-color: rgb(255, 255, 255);
-    border-radius: 20px;
     border-width: 2px;
     border-style: solid;
     border-color: rgb(60, 64, 72);
@@ -125,6 +127,12 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30%;
 }
+/* .logogridh{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+} */
 .lgbutton{
     width: 90px;
     border-radius: 50px;
@@ -143,6 +151,34 @@ body{
 .lgbutton:active{
     opacity: 70%;
 }
+/* .lgbuttonh{
+    width: 50%;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-top: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #144272;
+    transition: background-color 0.15s, opacity 0.2s;
+}
+.lgbuttonh:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: #2C74B3;
+}
+.lgbuttonh:active{
+    opacity: 70%;
+}
+.flexcont{
+    display: flex;
+}
+.left{
+    width: 500px;
+}
+.right{
+    padding-top: 2%;
+    flex: 1;
+} */
 .suzu{
     width: 100%;
     border-radius: 50px;
@@ -235,11 +271,23 @@ body{
 #lambou{
     width: 15%;
 }
+#lambor{
+    width: 16%;
+}
 #aston{
     width: 17%;
 }
+#ev{
+    width: 13%;
+}
 #pors{
     width: 10%;
+}
+#toyo{
+    width: 9%;
+}
+#kia{
+    width: 4%;
 }
 @keyframes animate-background{
     0%{
@@ -266,7 +314,7 @@ body{
     background-color: #aaa;
     color: #0A2647;
     border-radius: 20px;
-    padding-top: 35%;
+    padding-top: 38%;
     font-weight: 500;
     font-size: 2.3vw;
     font-family: Andika, Arial, sans-serif;
@@ -290,6 +338,12 @@ body{
     position: absolute;
     top: 2%;
     left: 0.6%;
+}
+.medal{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 15%;
 }
 
 @media (min-width:1010px){
@@ -347,6 +401,7 @@ body{
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (max-width:676px){
     .recgrid{
         grid-template-columns: 1fr;
@@ -443,6 +498,7 @@ body{
     width: 80%;
     position: relative;
     margin-left: 10%;
+    transition: opacity 0.4s;
 }
 .mainpic{
     width: 100%;
@@ -454,7 +510,20 @@ body{
     position: absolute;
     bottom: 2%;
     left: 2%;
-    opacity: 70%;
+    right: 2%;
+    opacity: 0%;
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%; */
 }
 
 /* kia page */
@@ -463,4 +532,15 @@ body{
     background-color: rgba(40, 40, 40, 1);
     /* position: relative;
     left: 800px; */
+}
+.maindiv:hover .info{
+    opacity: 70%;
+    transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+}
+.maindiv:hover{
+    margin-bottom: 200px;
+}
+.specs{
+    width: 100%;
 }

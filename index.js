@@ -31,27 +31,47 @@ function changeurus(){
 }
 function changevantc(){
     document.getElementById("mainimage").src="logo/vantc.jpg";
-    document.getElementById("text").innerHTML="Vantage Coupe";
+    document.getElementById("model").innerHTML="Model: Vantage Coupe"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 4L V8 engine";
+    document.getElementById("mile").innerHTML="Mileage: 8-9kmpl";
+    document.getElementById("price").innerHTML="Price: ₹2.95Cr";
+    document.getElementById("speed").innerHTML="Top speed: 314kmph";
+    document.getElementById("type").innerHTML="Type: Sports Car";
 }
-function changevantr(){
-    document.getElementById("mainimage").src="logo/vantr.webp";
-    document.getElementById("text").innerHTML="Vantage Roadster";
-}
+// function changevantr(){
+//     document.getElementById("mainimage").src="logo/vantr.webp";
+//     document.getElementById("text").innerHTML="Vantage Roadster";
+// }
 function changedbx(){
     document.getElementById("mainimage").src="logo/dbx.jpg";
-    document.getElementById("text").innerHTML="DBX707";
+    document.getElementById("model").innerHTML="Model: DBX707"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 4L V8 engine";
+    document.getElementById("mile").innerHTML="Mileage: 6-7kmpl";
+    document.getElementById("price").innerHTML="Price: ₹4.63 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 310kmph";
+    document.getElementById("type").innerHTML="Type: Luxury SUV";
 }
 function changedbs(){
     document.getElementById("mainimage").src="logo/dbs.webp";
-    document.getElementById("text").innerHTML="DBS";
+    document.getElementById("model").innerHTML="Model: DBS Coupe"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 5.2L V12 engine";
+    document.getElementById("mile").innerHTML="Mileage: 6-7kmpl";
+    document.getElementById("price").innerHTML="Price: ₹5 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 340kmph";
+    document.getElementById("type").innerHTML="Type: Luxury Sedan";
 }
-function changedb11(){
-    document.getElementById("mainimage").src="logo/db11.jpg";
-    document.getElementById("text").innerHTML="DB11";
-}
+// function changedb11(){
+//     document.getElementById("mainimage").src="logo/db11.jpg";
+//     document.getElementById("text").innerHTML="DB11";
+// }
 function changedbsv(){
     document.getElementById("mainimage").src="logo/dbsv.jpg";
-    document.getElementById("text").innerHTML="DBS Volante";
+    document.getElementById("model").innerHTML="Model: DBS Volante"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 5.2L V12 engine";
+    document.getElementById("mile").innerHTML="Mileage: 6-7kmpl";
+    document.getElementById("price").innerHTML="Price: ₹2-5 Cr";
+    document.getElementById("speed").innerHTML="Top speed: 340kmph";
+    document.getElementById("type").innerHTML="Type: Convertible";
 }
 function changetay(){
     document.getElementById("mainimage").src="logo/taycan.jpg";
