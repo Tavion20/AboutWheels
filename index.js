@@ -160,3 +160,35 @@ function changepassat(){
     document.getElementById("speed").innerHTML="Top speed: 220 km/h";
     document.getElementById("type").innerHTML="Type: Sedan";
 }
+
+//toyota
+
+function changefortuner(){
+    document.getElementById("mainimage").src="logo/fortuner.webp";
+    document.getElementById("model").innerHTML="Model: Fortuner"; 
+    document.getElementById("engsp").innerHTML="Engine Specs: 2.7L 4-cylinder 2694 cc";
+    document.getElementById("mile").innerHTML="Mileage: 14.24 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹32.59 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 190 Km/hr";
+    document.getElementById("type").innerHTML="Type: SUV";
+}
+
+function changecamry(){
+    document.getElementById("mainimage").src="logo/camry.jpg";
+    document.getElementById("model").innerHTML="Model: Camry"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 2.5L 3-cylinder 2498 cc";
+    document.getElementById("mile").innerHTML="Mileage: 23 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹45.25 lakhs";
+    document.getElementById("speed").innerHTML="Top speed: 210 km/h";
+    document.getElementById("type").innerHTML="Type: Sedan";
+}
+
+function changeinnova(){
+    document.getElementById("mainimage").src="logo/innova.jpg";
+    document.getElementById("model").innerHTML="Model: Innova"; 
+    document.getElementById("engsp").innerHTML="Engine specs: 2.0L 3-cylinder 1998 cc";
+    document.getElementById("mile").innerHTML="Mileage: 11.4 to 12.99 km/L";
+    document.getElementById("price").innerHTML="Base Price: ₹18.09 Lakh";
+    document.getElementById("speed").innerHTML="Top speed: 	179 km/h";
+    document.getElementById("type").innerHTML="Type: MPV";
+}
